@@ -7,19 +7,19 @@ import unicodedata
 SECOES = [
     {
         "id": "pratos",
-        "titulo": "Pratos principais e marmitinhas",
+        "titulo": "Refeições principais",
         "icon": ":material/skillet:",
     },
     {
         "id": "lanches",
-        "titulo": "Lanches e salgados práticos",
+        "titulo": "Salgados e lanches",
         "icon": ":material/lunch_dining:",
     },
     {
         "id": "doces",
-        "titulo": "Lanches e sobremesas doces",
+        "titulo": "Doces e lancheira",
         "icon": ":material/cookie:",
-        "resumo": "Porções individuais doces e fáceis de congelar.",
+        "resumo": "Bolos, docinhos e porções para congelar.",
     },
 ]
 
@@ -35,503 +35,509 @@ RECEITAS = [
     {
         "id": "vulcao",
         "numero": 1,
-        "titulo": "Vulcãozinho de carne moída com purê de batata",
+        "titulo": "Vulcãozinhos de carne moída com purê de batata",
         "secao": "pratos",
-        "rendimento": "6 a 8 unidades",
-        "aparencia": (
-            "Copinhos dourados de carne moída bem assada e suculenta, "
-            "recheados até o topo com um purê de batata ultracremoso e "
-            "cobertos com muçarela gratinada e salpicada de cheiro-verde."
-        ),
+        "rendimento": "8 unidades",
+        "aparencia": "Copinhos de carne assada com purê de batata e muçarela gratinada.",
         "grupos": [
             {
                 "nome": "Ingredientes",
                 "itens": [
-                    "1,2 kg de carne moída (patinho ou acém)",
-                    "2,5 kg de batata inglesa",
-                    "1/2 xícara de leite integral",
-                    "2 colheres (sopa) de manteiga",
-                    "1 cebola picadinha e 3 dentes de alho amassados",
-                    "200 g de queijo muçarela ralado",
-                    "Sal, pimenta-do-reino e cheiro-verde a gosto",
+                    "700 g de carne moída (patinho ou acém)",
+                    "800 g de batata inglesa",
+                    "150 g de queijo muçarela ralado",
+                    "1/2 cebola e 2 dentes de alho",
+                    "1 e 1/2 colher (sopa) de manteiga",
+                    "50 ml de leite integral",
+                    "2 colheres (sopa) de cheiro-verde, sal e pimenta-do-reino a gosto",
                 ],
             }
         ],
         "passos": [
-            "Cozinhe as batatas em água e sal até ficarem bem macias. Esprema-as ainda quentes e misture a manteiga e o leite até formar um purê bem firme. Reserve.",
-            "Tempere a carne moída crua com o alho, cebola, sal, pimenta e cheiro-verde.",
-            "Modele cumbucas ou copinhos com a carne. Dá para usar forminhas de empada como apoio na assadeira.",
-            "Preencha o centro de cada copinho de carne com o purê de batata e finalize com muçarela por cima.",
+            "Cozinhe 800 g de batatas em água e sal até ficarem macias. Esprema ainda quentes, misture a manteiga e o leite até formar um purê bem firme. Reserve.",
+            "Tempere 700 g de carne moída crua com alho, cebola, sal, pimenta e cheiro-verde.",
+            "Modele 8 copinhos com a carne direto em uma assadeira.",
+            "Preencha o centro de cada copinho com o purê e cubra com a muçarela.",
             "Asse em forno preaquecido a 200°C por 25 minutos, até a carne assar e o queijo gratinar.",
         ],
-        "congelar": "Deixe esfriar para congelar.",
+        "congelar": "Deixe esfriar completamente antes de embalar.",
     },
     {
         "id": "panqueca",
         "numero": 2,
-        "titulo": "Panqueca de espinafre com recheio funcional",
+        "titulo": "Panquecas funcionais de espinafre",
         "secao": "pratos",
         "rendimento": "8 a 10 unidades",
-        "aparencia": (
-            "Panquecas de cor verde-vibrante alinhadas em uma travessa, "
-            "recheadas com frango e um refogado de cenoura, abobrinha e "
-            "chuchu, cobertas por um fio leve de molho de tomate."
-        ),
+        "aparencia": "Discos verdes recheados com frango ou carne e legumes ralados.",
         "grupos": [
             {
                 "nome": "Massa",
                 "itens": [
-                    "0,4 kg de espinafre fresco (1 a 2 maços)",
+                    "1 maço de espinafre fresco (cerca de 300 g)",
                     "1 xícara de leite integral",
                     "1 xícara de farinha de trigo",
                     "2 ovos",
-                    "1 pitada de sal e azeite para untar",
+                    "1/2 cebola, 2 dentes de alho, azeite, sal e pimenta-do-reino a gosto",
                 ],
             },
             {
-                "nome": "Recheio",
+                "nome": "Recheio, escolha um ou os dois",
                 "itens": [
-                    "Frango desfiado ou carne moída",
-                    "Cenoura, abobrinha e chuchu ralados e refogados bem sequinhos no azeite com alho",
+                    "400 g de frango desfiado",
+                    "ou 400 g de carne moída refogada",
+                    "200 g de refogado de legumes (cenoura, abobrinha e chuchu ralados)",
                 ],
             },
         ],
         "passos": [
             "Bata no liquidificador o espinafre, o leite, a farinha, os ovos e o sal até obter uma massa lisa e verde.",
-            "Aqueça uma frigideira antiaderente levemente untada e faça os discos finos de panqueca.",
-            "Misture o refogado dos legumes ralados com a proteína escolhida.",
-            "Recheie cada disco, enrole e acomode nas marmitinhas.",
+            "Aqueça uma frigideira antiaderente levemente untada e faça os discos finos.",
+            "Refogue o alho, a cebola e o frango ou a carne moída. Misture o refogado de legumes.",
+            "Recheie cada disco, enrole e monte em marmitinhas individuais.",
         ],
-        "congelar": None,
-        "ja_tem": "Cenoura, abobrinha e chuchu já estão em casa.",
+        "congelar": "Deixe esfriar antes de congelar as marmitinhas.",
+    },
+    {
+        "id": "escondidinho",
+        "numero": 3,
+        "titulo": "Escondidinho de batata com frango ou carne",
+        "secao": "pratos",
+        "rendimento": "4 marmitinhas",
+        "aparencia": "Purê de batata com recheio cremoso e muçarela por cima.",
+        "grupos": [
+            {
+                "nome": "Ingredientes",
+                "itens": [
+                    "700 g de batata inglesa",
+                    "400 g de frango desfiado ou carne moída",
+                    "150 g de refogado de legumes (cenoura, abobrinha e chuchu)",
+                    "150 g de queijo muçarela ralado",
+                    "100 g de requeijão culinário",
+                    "50 g de azeitonas fatiadas",
+                    "1/2 sachê de molho ou extrato de tomate",
+                    "1 colher (sopa) de manteiga e 50 ml de leite integral",
+                    "Sal a gosto",
+                ],
+            }
+        ],
+        "passos": [
+            "Prepare o purê amassando as batatas cozidas com manteiga, leite e sal.",
+            "Refogue o frango ou a carne moída com o refogado de legumes, azeitonas, requeijão e extrato de tomate.",
+            "Nas marmitinhas, faça uma camada de purê, o recheio e feche com outra camada de purê.",
+            "Cubra com a muçarela e leve ao forno por 15 minutos para derreter o queijo.",
+        ],
+        "congelar": "Deixe gelar e só então congele.",
     },
     {
         "id": "esfirras",
-        "numero": 3,
-        "titulo": "Esfirras abertas e fechadas (massa curinga)",
+        "numero": 4,
+        "titulo": "Esfirras abertas e fechadas",
         "secao": "lanches",
         "rendimento": "30 unidades",
-        "aparencia": (
-            "Esfirras abertas de carne temperada e calabresa acebolada, "
-            "ao lado de esfirras fechadas em formato triangular, douradas, "
-            "recheadas com frango cremoso e brócolis com queijo."
-        ),
+        "aparencia": "Massa caseira com carne, frango, calabresa ou brócolis. Dá para marcar mais de um recheio.",
         "grupos": [
             {
                 "nome": "Massa",
                 "itens": [
                     "500 g de farinha de trigo",
-                    "1 sachê de fermento biológico seco (10 g)",
-                    "1 colher (sopa) de açúcar e 1 colher (chá) de sal",
+                    "10 g de fermento biológico seco (1 sachê)",
+                    "1 colher (sopa) de açúcar",
+                    "1 colher (chá) de sal",
                     "3 colheres (sopa) de óleo",
                     "Cerca de 250 ml de água morna",
                 ],
             },
             {
-                "nome": "Recheios citados na ficha",
+                "nome": "Recheios desta fornada",
                 "itens": [
-                    "Abertas: carne temperada ou calabresa acebolada",
-                    "Fechadas: frango cremoso ou brócolis com queijo",
+                    "Carne, 8 abertas: 300 g de carne moída crua, 1 tomate picado, 1/2 cebola, sal, pimenta e limão",
+                    "Frango cremoso, 8 fechadas: 300 g de frango desfiado, 1/2 lata de milho, 150 g de requeijão, cheiro-verde e sal",
+                    "Calabresa, 7 abertas: 400 g de linguiça calabresa, 1 cebola grande e 100 g de requeijão",
+                    "Brócolis com queijo, 7 fechadas: 500 g de brócolis picado cozido, 2 dentes de alho, 150 g de muçarela, azeite e sal",
                 ],
             },
         ],
         "passos": [
-            "Misture os ingredientes secos, adicione o óleo e vá colocando a água morna aos poucos até dar o ponto de sova. Sove por 8 minutos até a massa ficar lisa e deixe descansar por 30 minutos.",
-            "Divida em 30 bolinhas iguais.",
-            "Abertas (carne ou calabresa): abra os discos pressionando o centro para formar uma borda elevada e coloque o recheio no meio.",
-            "Fechadas (frango ou brócolis): abra o disco plano, recheie o centro e dobre as 3 pontas formando um triângulo, selando bem.",
-            "Asse a 200°C por 15 a 20 minutos, até dourar a base e as bordas.",
+            "Misture a farinha, o fermento, o açúcar e o sal. Adicione o óleo e a água morna aos poucos, sovando por 8 a 10 minutos até a massa ficar lisa. Deixe descansar coberta por 30 minutos.",
+            "Divida a massa em 30 bolinhas iguais.",
+            "Abertas (carne ou calabresa): abra a bolinha pressionando o centro para formar uma borda elevada e preencha.",
+            "Fechadas (frango ou brócolis): abra o disco, coloque o recheio no centro e dobre as três pontas, selando bem.",
+            "Asse a 200°C em assadeira untada por 15 a 20 minutos, até dourar.",
         ],
-        "congelar": None,
+        "congelar": "Deixe esfriar antes de embalar.",
+    },
+    {
+        "id": "pastel",
+        "numero": 5,
+        "titulo": "Pastéis de feira em discos redondos",
+        "secao": "lanches",
+        "rendimento": "20 unidades por recheio",
+        "aparencia": "Discos prontos, fechados em meia-lua. Cada recheio é uma fornada.",
+        "grupos": [
+            {
+                "nome": "Massa",
+                "itens": ["20 a 24 discos prontos de pastel (cerca de 500 g a 600 g)"],
+            },
+            {
+                "nome": "Um recheio por fornada",
+                "itens": [
+                    "Carne com azeitona: 150 g de carne moída refogada com tomate e 30 g de azeitona picada",
+                    "Carne com cheddar: 150 g de carne moída refogada, 100 g de cheddar e 1 cebola caramelizada",
+                    "Frango com milho: 150 g de frango desfiado, 1/2 lata de milho e 80 g de requeijão",
+                    "Presunto e queijo: 100 g de presunto, 100 g de muçarela e orégano",
+                    "Palmito: 300 g de palmito refogado com alho, cebola, 1/2 sachê de molho de tomate e 80 g de requeijão",
+                ],
+            },
+        ],
+        "passos": [
+            "Coloque 1 colher bem servida do recheio frio no centro do disco.",
+            "Pincele um pouco de água em meia borda, dobre em meia-lua e aperte com um garfo.",
+            "Passe levemente no trigo.",
+        ],
+        "congelar": "Disponha sem encostar por 2 horas no freezer. Depois de durinhos, passe para sacos plásticos.",
+    },
+    {
+        "id": "pizza",
+        "numero": 6,
+        "titulo": "Mini pizzas pré-assadas",
+        "secao": "lanches",
+        "rendimento": "8 unidades",
+        "aparencia": "Discos pré-assados com presunto e muçarela ou frango com requeijão.",
+        "grupos": [
+            {
+                "nome": "Base",
+                "itens": [
+                    "1 pacote de discos de mini pizza pré-assados (8 discos)",
+                    "1/2 sachê de molho de tomate",
+                    "1 tomate em rodelas, milho verde e orégano a gosto",
+                ],
+            },
+            {
+                "nome": "Coberturas, pode marcar as duas",
+                "itens": [
+                    "Presunto e muçarela: 100 g de presunto e 150 g de muçarela",
+                    "Frango com requeijão: 150 g de frango desfiado e 150 g de requeijão ou catupiry",
+                ],
+            },
+        ],
+        "passos": [
+            "Espalhe uma camada leve de molho de tomate em cada disco.",
+            "Distribua a cobertura escolhida.",
+            "Salpique orégano por cima.",
+        ],
+        "congelar": "Embale individualmente ou em duplas no plástico filme.",
     },
     {
         "id": "bandas",
-        "numero": 4,
-        "titulo": "Bandas de pão francês recheadas (estilo canoa)",
+        "numero": 7,
+        "titulo": "Bandas de pão francês recheadas",
         "secao": "lanches",
-        "rendimento": "30 mini lanches (em 15 pães)",
-        "aparencia": (
-            "Metades de pão francês crocantes, recheadas até a borda com "
-            "carne louca e pernil ao molho barbecue, embaladas para ir direto ao freezer."
-        ),
+        "rendimento": "30 mini lanches em 15 pães",
+        "aparencia": "Pães em canoa com carne louca, pernil, misto ou peito de peru.",
         "grupos": [
             {
-                "nome": "Recheios",
+                "nome": "Pão",
+                "itens": ["15 pães franceses, cortados ao meio"],
+            },
+            {
+                "nome": "Recheios desta fornada",
                 "itens": [
-                    "Carne louca: lagarto desfiado com pimentões, tomate, cebola e molho encorpado",
-                    "Pernil barbecue: pernil assado e desfiado envolvido em molho barbecue e shoyu",
-                    "Misto especial: presunto, muçarela, tomate picado sem semente e orégano",
-                    "Peito de peru cremoso: peito de peru picado com cream cheese e azeitonas",
+                    "Carne louca, 10 bandas: 1,5 kg de lagarto ou fraldinha, 2 cebolas, 2 tomates e 1 sachê de molho de tomate",
+                    "Pernil barbecue, 8 bandas: 1,2 kg de pernil suíno, 1 cebola, 2 dentes de alho, 150 ml de barbecue e 50 ml de shoyu",
+                    "Misto, 6 bandas: 150 g de presunto, 150 g de muçarela, 1 tomate e orégano",
+                    "Peito de peru, 6 bandas: 200 g de peito de peru, 200 g de cream cheese e 50 g de azeitonas picadas",
+                ],
+            },
+        ],
+        "passos": [
+            "Corte os pães ao meio no sentido do comprimento.",
+            "Retire um pouco do miolo do centro, formando uma canoa.",
+            "Preencha cada metade com o recheio.",
+            "Embale cada banda em papel-alumínio.",
+        ],
+        "congelar": "As bandas embaladas vão direto para o freezer.",
+    },
+    {
+        "id": "hamburguer",
+        "numero": 8,
+        "titulo": "Hambúrgueres caseiros de 100 g",
+        "secao": "lanches",
+        "rendimento": "10 unidades",
+        "aparencia": "Discos de 100 g, temperados só com sal, pimenta e azeite.",
+        "grupos": [
+            {
+                "nome": "Ingredientes",
+                "itens": [
+                    "1 kg de carne moída crua (patinho ou acém)",
+                    "1 colher (chá) de sal",
+                    "Pimenta-do-reino e 1 fio de azeite a gosto",
                 ],
             }
         ],
         "passos": [
-            "Corte os pães franceses ao meio no sentido do comprimento.",
-            "Retire um pouco do excesso do miolo, formando uma canoa, para caber mais recheio.",
-            "Preencha com o recheio desejado.",
-            "Embale cada metade individualmente em papel-alumínio.",
+            "Misture a carne crua com o sal, a pimenta e um fio de azeite. Não ponha cebola nem alho frescos na massa, para não soltar água.",
+            "Divida em 10 porções de 100 g e modele os discos.",
+            "Embale cada um em plástico próprio para hambúrguer.",
         ],
-        "congelar": "Embaladas em papel-alumínio, as metades vão direto para o freezer.",
+        "congelar": "Congele crus.",
+    },
+    {
+        "id": "almondega",
+        "numero": 9,
+        "titulo": "Almôndegas recheadas com queijo",
+        "secao": "lanches",
+        "rendimento": "10 unidades",
+        "aparencia": "Bolinhas de carne com um cubo de muçarela no centro.",
+        "grupos": [
+            {
+                "nome": "Ingredientes",
+                "itens": [
+                    "500 g de carne moída crua",
+                    "100 g de queijo muçarela em 10 cubinhos",
+                    "1/2 cebola ralada e 1 dente de alho amassado",
+                    "Cheiro-verde e sal a gosto",
+                ],
+            }
+        ],
+        "passos": [
+            "Tempere a carne com alho, cebola ralada, sal e cheiro-verde.",
+            "Divida em 10 porções, abra na palma da mão e coloque 1 cubo de muçarela no centro.",
+            "Feche bem, para o queijo não vazar.",
+        ],
+        "congelar": "Congele cruas, abertas na assadeira, e só depois ensacar.",
+    },
+    {
+        "id": "bolo_cenoura",
+        "numero": 10,
+        "titulo": "Bolo de cenoura com vulcão de chocolate",
+        "secao": "doces",
+        "rendimento": "6 marmitinhas",
+        "aparencia": "Marmitinhas de bolo de cenoura com calda de chocolate quente.",
+        "grupos": [
+            {
+                "nome": "Massa",
+                "itens": [
+                    "1 cenoura média (cerca de 150 g)",
+                    "2 ovos",
+                    "80 ml de óleo",
+                    "150 g de açúcar",
+                    "150 g de farinha de trigo",
+                    "8 g de fermento em pó",
+                ],
+            },
+            {
+                "nome": "Calda",
+                "itens": ["100 g de achocolatado ou cacau, 50 g de açúcar, 20 g de manteiga e 30 ml de leite"],
+            },
+        ],
+        "passos": [
+            "Bata no liquidificador a cenoura, os ovos, o óleo e o açúcar até ficar homogêneo.",
+            "Transfira para uma tigela e incorpore a farinha e o fermento.",
+            "Distribua em 6 marmitinhas e asse a 180°C por 20 minutos.",
+            "Ferva a calda até encorpar e despeje quente sobre os bolos.",
+        ],
+        "congelar": "Deixe esfriar antes de embalar as marmitinhas.",
+    },
+    {
+        "id": "bolo_banana",
+        "numero": 11,
+        "titulo": "Bolo de banana com aveia e canela",
+        "secao": "doces",
+        "rendimento": "6 quadrados",
+        "aparencia": "Bolo úmido de banana, aveia e canela, cortado em quadrados.",
+        "grupos": [
+            {
+                "nome": "Ingredientes",
+                "itens": [
+                    "3 bananas maduras (cerca de 300 g)",
+                    "2 ovos",
+                    "50 ml de óleo",
+                    "50 g de açúcar mascavo",
+                    "100 g de aveia em flocos finos",
+                    "5 g de canela em pó",
+                    "8 g de fermento em pó",
+                ],
+            }
+        ],
+        "passos": [
+            "Amasse as bananas e misture com os ovos, o óleo, o açúcar mascavo e a canela.",
+            "Adicione a aveia e o fermento.",
+            "Despeje em forma retangular de 20×30 cm untada e asse a 180°C por 25 minutos.",
+            "Deixe esfriar, corte em 6 quadrados e embale no plástico filme.",
+        ],
+        "congelar": "Embale os quadrados depois de frios.",
+    },
+    {
+        "id": "bolo_nega",
+        "numero": 12,
+        "titulo": "Bolo de chocolate nega maluca",
+        "secao": "doces",
+        "rendimento": "6 quadrados",
+        "aparencia": "Bolo de chocolate com cacau e água fervente, cortado em 6 porções.",
+        "grupos": [
+            {
+                "nome": "Ingredientes",
+                "itens": [
+                    "2 ovos",
+                    "100 ml de óleo",
+                    "150 g de açúcar",
+                    "80 g de cacau em pó 50%",
+                    "150 g de farinha de trigo",
+                    "100 ml de água fervente",
+                    "8 g de fermento em pó",
+                ],
+            }
+        ],
+        "passos": [
+            "Bata os ovos com o açúcar e o óleo.",
+            "Adicione o cacau e a farinha. Por último, misture a água fervente e o fermento.",
+            "Asse a 180°C por 25 minutos.",
+            "Deixe esfriar, corte em 6 porções e embale em papel-alumínio.",
+        ],
+        "congelar": "Embale as porções depois de frias.",
+    },
+    {
+        "id": "bolo_laranja",
+        "numero": 13,
+        "titulo": "Bolo de laranja com calda cítrica",
+        "secao": "doces",
+        "rendimento": "6 fatias",
+        "aparencia": "Bolo de laranja inteira, regado com calda ainda quente.",
+        "grupos": [
+            {
+                "nome": "Massa",
+                "itens": [
+                    "1 laranja pera inteira, sem sementes e sem o miolo branco",
+                    "2 ovos",
+                    "80 ml de óleo",
+                    "150 g de açúcar",
+                    "150 g de farinha de trigo",
+                    "8 g de fermento em pó",
+                ],
+            },
+            {
+                "nome": "Calda",
+                "itens": ["Suco de 1 laranja e 50 g de açúcar"],
+            },
+        ],
+        "passos": [
+            "Bata no liquidificador a laranja inteira com casca, os ovos, o óleo e o açúcar.",
+            "Misture a farinha e o fermento à mão.",
+            "Asse a 180°C por 25 minutos e regue ainda quente com o suco de laranja fervido com açúcar.",
+        ],
+        "congelar": "Deixe esfriar antes de fatiar e embalar.",
+    },
+    {
+        "id": "bolo_coco",
+        "numero": 14,
+        "titulo": "Bolo de coco gelado",
+        "secao": "doces",
+        "rendimento": "6 quadrados",
+        "aparencia": "Quadrados molhados na calda de coco e passados no coco ralado.",
+        "grupos": [
+            {
+                "nome": "Massa",
+                "itens": [
+                    "2 claras e 2 gemas",
+                    "120 g de açúcar",
+                    "100 g de farinha de trigo",
+                    "50 ml de leite",
+                    "5 g de fermento em pó",
+                ],
+            },
+            {
+                "nome": "Calda e cobertura",
+                "itens": [
+                    "150 ml de leite condensado",
+                    "100 ml de leite de coco",
+                    "50 ml de leite integral",
+                    "50 g de coco ralado sem açúcar",
+                ],
+            },
+        ],
+        "passos": [
+            "Bata as claras em neve. À parte, bata as gemas com o açúcar, junte a farinha intercalada com o leite e, por último, as claras e o fermento.",
+            "Asse a 180°C por 20 minutos.",
+            "Misture o leite condensado, o leite de coco e o leite. Banhe os quadrados, passe no coco ralado e embale em papel-alumínio.",
+        ],
+        "congelar": "Embale cada quadrado depois de frio.",
     },
     {
         "id": "palha",
-        "numero": 5,
-        "titulo": "Palha italiana caseira em porções",
+        "numero": 15,
+        "titulo": "Palha italiana caseira",
         "secao": "doces",
         "rendimento": "12 a 15 quadradinhos",
-        "aparencia": (
-            "Quadradinhos macios de brigadeiro com pedaços crocantes de "
-            "biscoito, polvilhados com leite em pó e embalados individualmente."
-        ),
+        "aparencia": "Quadradinhos de brigadeiro com biscoito maisena.",
         "grupos": [
             {
                 "nome": "Ingredientes",
                 "itens": [
-                    "1 lata de leite condensado",
-                    "1 caixinha de creme de leite",
-                    "3 colheres (sopa) de cacau em pó (ou chocolate em pó)",
+                    "1 lata de leite condensado (395 g)",
+                    "1 caixa de creme de leite (200 g)",
+                    "3 colheres (sopa) de cacau em pó",
                     "1 colher (sopa) de manteiga",
-                    "1 pacote de biscoito maisena picado grosseiramente",
+                    "1 pacote de biscoito maisena picado (cerca de 150 g)",
                 ],
             }
         ],
         "passos": [
-            "Leve o leite condensado, o creme de leite, o cacau e a manteiga ao fogo baixo, mexendo sempre, até dar o ponto de brigadeiro mole (soltando do fundo da panela).",
-            "Desligue o fogo e misture os biscoitos picados.",
-            "Despeje em uma travessa forrada com plástico ou papel-manteiga, alise e leve à geladeira por 2 horas.",
-            "Corte em quadradinhos individuais e embale em insulfilm.",
+            "Em fogo baixo, cozinhe o leite condensado, o creme de leite, o cacau e a manteiga até o ponto de brigadeiro mole.",
+            "Desligue o fogo e misture o biscoito picado.",
+            "Despeje em uma travessa forrada com plástico, leve à geladeira por 2 horas, corte em quadradinhos e embale.",
         ],
-        "congelar": "Para consumir, tire do freezer 10 minutos antes.",
+        "congelar": "Para comer, tire do freezer cerca de 10 minutos antes.",
     },
     {
         "id": "pudim",
-        "numero": 6,
-        "titulo": "Mini pudim de leite condensado (sem furinhos)",
+        "numero": 16,
+        "titulo": "Mini pudim de leite condensado",
         "secao": "doces",
-        "rendimento": "6 a 8 mini forminhas",
-        "aparencia": (
-            "Mini pudins individuais lisinhos e brilhantes, servidos com "
-            "uma calda de caramelo dourada e aveludada."
-        ),
+        "rendimento": "6 a 8 unidades",
+        "aparencia": "Mini pudins com calda de caramelo no fundo da forminha.",
         "grupos": [
             {
                 "nome": "Ingredientes",
                 "itens": [
-                    "1 lata de leite condensado",
-                    "1 lata de leite integral (use a mesma medida da lata)",
-                    "3 ovos inteiros",
-                    "1 xícara de açúcar para a calda e 1/2 xícara de água quente",
+                    "1 lata de leite condensado (395 g)",
+                    "1 lata de leite integral, na mesma medida",
+                    "3 ovos",
+                    "1 xícara de açúcar e 1/2 xícara de água quente para o caramelo",
                 ],
             }
         ],
         "passos": [
-            "Derreta o açúcar na panela até virar caramelo, acrescente a água quente com cuidado e deixe dissolver. Forre o fundo das mini forminhas com a calda.",
-            "Bata o leite condensado, o leite e os ovos no liquidificador por 2 minutos. Passe a mistura por uma peneira ao despejar nas forminhas, para ficar sem furinhos.",
-            "Asse em banho-maria no forno, cobertos com papel-alumínio, a 180°C por cerca de 40 a 50 minutos.",
-            "Deixe gelar completamente antes de desenformar ou congelar na própria forminha.",
+            "Derreta o açúcar até virar caramelo, adicione a água quente e forre o fundo das mini forminhas.",
+            "Bata o leite condensado, o leite e os ovos no liquidificador por 2 minutos. Peneire ao despejar nas forminhas.",
+            "Asse em banho-maria, cobertos com papel-alumínio, a 180°C por 45 minutos.",
         ],
-        "congelar": "Deixe gelar por completo antes de desenformar ou congele na própria forminha.",
+        "congelar": "Deixe gelar antes de congelar na própria forminha.",
     },
     {
         "id": "brigadeiro",
-        "numero": 7,
-        "titulo": "Brigadeiro tradicional enrolado para congelar",
+        "numero": 17,
+        "titulo": "Brigadeiro tradicional enrolado",
         "secao": "doces",
         "rendimento": "25 a 30 docinhos",
-        "aparencia": (
-            "Brigadeiros cremosos boleados e passados no granulado, "
-            "dispostos em forminhas e organizados em marmitinhas seladas."
-        ),
+        "aparencia": "Bolinhas no ponto de bloco, passadas no granulado.",
         "grupos": [
             {
                 "nome": "Ingredientes",
                 "itens": [
-                    "1 lata de leite condensado",
-                    "1/2 caixinha de creme de leite",
-                    "3 colheres (sopa) de chocolate em pó 50%",
+                    "1 lata de leite condensado (395 g)",
+                    "1/2 caixa de creme de leite (100 g)",
+                    "3 colheres (sopa) de cacau em pó",
                     "1 colher (sopa) de manteiga",
-                    "Granulado ou granulado de chocolate nobre para confeitar",
+                    "100 g de granulado de chocolate",
                 ],
             }
         ],
         "passos": [
-            "Cozinhe os ingredientes no fogo baixo até dar o ponto de bloco: a massa cai em pedaços da colher e solta completamente do fundo.",
-            "Deixe esfriar por completo em prato untado.",
-            "Unte as mãos com manteiga, modele as bolinhas e passe no granulado.",
-            "Coloque os brigadeiros em uma assadeira e leve ao freezer por 2 horas. Depois de firmes, transfira para potinhos herméticos.",
+            "Cozinhe em fogo baixo o leite condensado, o creme de leite, o cacau e a manteiga até o ponto de bloco, soltando do fundo da panela.",
+            "Deixe esfriar por completo. Unte as mãos com manteiga, modele as bolinhas e passe no granulado.",
+            "Leve ao freezer em assadeira por 2 horas e transfira para potinhos bem fechados.",
         ],
-        "congelar": "Descongela em 15 minutos em temperatura ambiente, mantendo a textura.",
-    },
-]
-
-ITENS = [
-    {
-        "id": "pao_frances",
-        "categoria": "paes",
-        "nome": "Pão francês",
-        "quantidade": "15 unidades",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "discos_pizza",
-        "categoria": "paes",
-        "nome": "Discos de mini pizza pré-assados",
-        "quantidade": "1 pacote (8 discos)",
-        "receitas": [],
-    },
-    {
-        "id": "massa_pastel",
-        "categoria": "paes",
-        "nome": "Massa pronta de pastel em rolo",
-        "quantidade": "0,8 kg (2 rolos)",
-        "receitas": [],
-    },
-    {
-        "id": "biscoito_maisena",
-        "categoria": "paes",
-        "nome": "Biscoito maisena",
-        "quantidade": "1 pacote (palha italiana)",
-        "receitas": ["palha"],
-    },
-    {
-        "id": "leite_condensado",
-        "categoria": "paes",
-        "nome": "Leite condensado",
-        "quantidade": "3 latas ou caixas",
-        "receitas": ["palha", "pudim", "brigadeiro"],
-    },
-    {
-        "id": "creme_leite",
-        "categoria": "paes",
-        "nome": "Creme de leite",
-        "quantidade": "3 caixinhas",
-        "receitas": ["palha", "brigadeiro"],
-    },
-    {
-        "id": "chocolate_cacau",
-        "categoria": "paes",
-        "nome": "Chocolate em pó ou cacau 50%",
-        "quantidade": "1 pacote",
-        "receitas": ["palha", "brigadeiro"],
-    },
-    {
-        "id": "granulado",
-        "categoria": "paes",
-        "nome": "Granulado de chocolate",
-        "quantidade": "1 pacote",
-        "receitas": ["brigadeiro"],
-    },
-    {
-        "id": "carne_moida",
-        "categoria": "acougue",
-        "nome": "Carne moída (patinho ou acém)",
-        "quantidade": "3,2 kg",
-        "receitas": ["vulcao", "panqueca", "esfirras"],
-        "nota": "A ficha do vulcãozinho pede 1,2 kg. O restante da lista cobre panqueca e esfirras, que não fecham a medida na ficha.",
-    },
-    {
-        "id": "peito_frango",
-        "categoria": "acougue",
-        "nome": "Peito de frango (sem osso)",
-        "quantidade": "2,0 kg",
-        "receitas": ["panqueca", "esfirras"],
-    },
-    {
-        "id": "carne_louca",
-        "categoria": "acougue",
-        "nome": "Carne para carne louca (lagarto ou fraldinha)",
-        "quantidade": "1,2 kg",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "pernil",
-        "categoria": "acougue",
-        "nome": "Pernil ou lombo suíno",
-        "quantidade": "1,0 kg",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "calabresa",
-        "categoria": "acougue",
-        "nome": "Linguiça calabresa",
-        "quantidade": "0,4 kg",
-        "receitas": ["esfirras"],
-    },
-    {
-        "id": "bacon",
-        "categoria": "acougue",
-        "nome": "Bacon em cubos",
-        "quantidade": "0,2 kg",
-        "receitas": [],
-    },
-    {
-        "id": "presunto",
-        "categoria": "acougue",
-        "nome": "Presunto fatiado",
-        "quantidade": "0,5 kg",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "peito_peru",
-        "categoria": "acougue",
-        "nome": "Peito de peru fatiado",
-        "quantidade": "0,3 kg",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "batata",
-        "categoria": "laticinios",
-        "nome": "Batata inglesa",
-        "quantidade": "2,5 kg",
-        "receitas": ["vulcao"],
-    },
-    {
-        "id": "ovos",
-        "categoria": "laticinios",
-        "nome": "Ovos",
-        "quantidade": "2 dúzias",
-        "receitas": ["panqueca", "pudim"],
-    },
-    {
-        "id": "leite",
-        "categoria": "laticinios",
-        "nome": "Leite integral",
-        "quantidade": "2 litros",
-        "receitas": ["vulcao", "panqueca", "pudim"],
-    },
-    {
-        "id": "mucarela",
-        "categoria": "laticinios",
-        "nome": "Queijo muçarela",
-        "quantidade": "1,5 kg (1,0 kg fatiado + 0,5 kg em peça)",
-        "receitas": ["vulcao", "esfirras", "bandas"],
-    },
-    {
-        "id": "cheddar",
-        "categoria": "laticinios",
-        "nome": "Queijo cheddar",
-        "quantidade": "0,35 kg (fatiado ou bisnaga)",
-        "receitas": [],
-    },
-    {
-        "id": "requeijao",
-        "categoria": "laticinios",
-        "nome": "Requeijão culinário ou catupiry",
-        "quantidade": "1,0 kg (2 bisnagas)",
-        "receitas": [],
-    },
-    {
-        "id": "cream_cheese",
-        "categoria": "laticinios",
-        "nome": "Cream cheese",
-        "quantidade": "0,3 kg",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "manteiga",
-        "categoria": "laticinios",
-        "nome": "Manteiga",
-        "quantidade": "0,4 kg (2 potes ou tabletes)",
-        "receitas": ["vulcao", "palha", "brigadeiro"],
-    },
-    {
-        "id": "espinafre",
-        "categoria": "hortifruti",
-        "nome": "Espinafre",
-        "quantidade": "0,4 kg (1 a 2 maços)",
-        "receitas": ["panqueca"],
-    },
-    {
-        "id": "cebola",
-        "categoria": "hortifruti",
-        "nome": "Cebola",
-        "quantidade": "2,5 kg",
-        "receitas": ["vulcao", "esfirras", "bandas"],
-    },
-    {
-        "id": "alho",
-        "categoria": "hortifruti",
-        "nome": "Alho",
-        "quantidade": "0,2 kg (1 rede ou cabeça grande)",
-        "receitas": ["vulcao", "panqueca"],
-    },
-    {
-        "id": "tomate",
-        "categoria": "hortifruti",
-        "nome": "Tomate",
-        "quantidade": "1,0 kg",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "brocolis",
-        "categoria": "hortifruti",
-        "nome": "Brócolis",
-        "quantidade": "0,5 kg (1 maço)",
-        "receitas": ["esfirras"],
-    },
-    {
-        "id": "cheiro_verde",
-        "categoria": "hortifruti",
-        "nome": "Cheiro-verde",
-        "quantidade": "0,2 kg (2 maços)",
-        "receitas": ["vulcao"],
-    },
-    {
-        "id": "palmito",
-        "categoria": "mercearia",
-        "nome": "Palmito em conserva",
-        "quantidade": "0,5 kg (2 vidros)",
-        "receitas": [],
-    },
-    {
-        "id": "azeitona",
-        "categoria": "mercearia",
-        "nome": "Azeitona fatiada sem caroço",
-        "quantidade": "0,4 kg",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "milho",
-        "categoria": "mercearia",
-        "nome": "Milho verde em conserva",
-        "quantidade": "0,34 kg (2 latas)",
-        "receitas": [],
-    },
-    {
-        "id": "molho_tomate",
-        "categoria": "mercearia",
-        "nome": "Molho ou extrato de tomate",
-        "quantidade": "0,6 kg (2 sachês)",
-        "receitas": ["panqueca"],
-    },
-    {
-        "id": "farinha",
-        "categoria": "mercearia",
-        "nome": "Farinha de trigo",
-        "quantidade": "2,0 kg",
-        "receitas": ["panqueca", "esfirras"],
-    },
-    {
-        "id": "fermento",
-        "categoria": "mercearia",
-        "nome": "Fermento biológico seco",
-        "quantidade": "0,02 kg (2 sachês de 10 g)",
-        "receitas": ["esfirras"],
-        "nota": "A ficha das esfirras pede 1 sachê de 10 g. A lista de produção traz 2.",
-    },
-    {
-        "id": "barbecue",
-        "categoria": "mercearia",
-        "nome": "Molho barbecue",
-        "quantidade": "0,25 kg (1 frasco)",
-        "receitas": ["bandas"],
-    },
-    {
-        "id": "shoyu",
-        "categoria": "mercearia",
-        "nome": "Molho shoyu",
-        "quantidade": "0,15 L (1 frasco)",
-        "receitas": ["bandas"],
+        "congelar": "Descongela em cerca de 15 minutos fora da geladeira.",
     },
 ]
 
@@ -544,10 +550,6 @@ def normalizar(texto: str) -> str:
         if unicodedata.category(caractere) != "Mn"
     )
     return sem_acento.casefold().strip()
-
-
-def chave_item(item_id: str) -> str:
-    return f"compra_{item_id}"
 
 
 def receita_por_id(receita_id: str) -> dict:
@@ -569,15 +571,6 @@ def titulo_receita(receita_id: str) -> str:
     return f"{receita['numero']}. {receita['titulo']}"
 
 
-def item_marcado(estado: dict, item_id: str) -> bool:
-    return bool(estado.get(chave_item(item_id), False))
-
-
-def resumo_compras(estado: dict) -> tuple[int, int]:
-    marcados = sum(1 for item in ITENS if item_marcado(estado, item["id"]))
-    return marcados, len(ITENS)
-
-
 def filtrar_receitas(busca: str, secao_id: str | None) -> list[dict]:
     termo = normalizar(busca)
     visiveis = []
@@ -592,44 +585,3 @@ def filtrar_receitas(busca: str, secao_id: str | None) -> list[dict]:
                 continue
         visiveis.append(receita)
     return visiveis
-
-
-def filtrar_itens(
-    busca: str,
-    categoria_id: str | None,
-    receita_ids: list[str],
-    esconder_comprados: bool,
-    estado: dict,
-) -> list[dict]:
-    termo = normalizar(busca)
-    escolhidas = set(receita_ids)
-    visiveis = []
-    for item in ITENS:
-        if categoria_id and categoria_id != "tudo" and item["categoria"] != categoria_id:
-            continue
-        if escolhidas and not escolhidas.intersection(item["receitas"]):
-            continue
-        if esconder_comprados and item_marcado(estado, item["id"]):
-            continue
-        if termo and termo not in normalizar(f"{item['nome']} {item['quantidade']}"):
-            continue
-        visiveis.append(item)
-    return visiveis
-
-
-def texto_pendentes(estado: dict) -> str:
-    linhas = ["Para comprar no mercado", ""]
-    for categoria in CATEGORIAS:
-        pendentes = [
-            item
-            for item in ITENS
-            if item["categoria"] == categoria["id"] and not item_marcado(estado, item["id"])
-        ]
-        if not pendentes:
-            continue
-        linhas.append(categoria["titulo"])
-        linhas.extend(f"[ ] {item['nome']}: {item['quantidade']}" for item in pendentes)
-        linhas.append("")
-    if len(linhas) == 2:
-        return "Nada para comprar. Tudo da lista já está marcado como em casa.\n"
-    return "\n".join(linhas).rstrip() + "\n"

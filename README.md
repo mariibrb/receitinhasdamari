@@ -23,4 +23,4 @@ Se o ambiente já existir:
 3. Em **Create app**, escolha o repositório, o branch `main` e o arquivo `streamlit_app.py`.
 4. Clique em **Deploy**. O app usa o `requirements.txt`.
 
-Em **No mercado**, marque o que já tem em casa. Qualquer aparelho que abrir este app vê a mesma marcação. Cada item dura 4 horas e depois apaga sozinho.
+Em **No mercado**, escolha as receitas e a quantidade de cada recheio. A lista soma só isso. Marque o que já tem hoje e baixe o arquivo para abrir no celular, mesmo fora do Wi-Fi de casa. A marcação dura 4 horas.

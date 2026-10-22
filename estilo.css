@@ -1,75 +1,35 @@
+.stMainBlockContainer.block-container {
+  max-width: none;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
 .st-key-tecido {
-  background-color: #ffe3f3;
+  background-color: #fff;
   background-image:
-    radial-gradient(circle at 10px 10px, #ff6fae 2.4px, transparent 2.6px),
-    radial-gradient(circle at 30px 28px, #49c6e8 2.2px, transparent 2.5px),
-    linear-gradient(45deg, #ffd0ea 25%, transparent 25%, transparent 75%, #ffd0ea 75%),
-    linear-gradient(45deg, #ffd0ea 25%, transparent 25%, transparent 75%, #ffd0ea 75%);
-  background-size: 40px 40px, 40px 40px, 26px 26px, 26px 26px;
-  background-position: 0 0, 0 0, 0 0, 13px 13px;
-  border: 3px solid #ff7eb6;
-  border-radius: 28px;
-  padding: 0.8rem 0.9rem 1.1rem;
-  box-shadow: 7px 7px 0 #c9b3ff;
+    linear-gradient(#fffefb, #fffefb),
+    linear-gradient(90deg, rgba(226, 92, 130, 0.42) 50%, transparent 50%),
+    linear-gradient(rgba(226, 92, 130, 0.42) 50%, transparent 50%);
+  background-size: auto, 8px 8px, 8px 8px;
+  background-repeat: no-repeat, repeat, repeat;
+  background-origin: padding-box, border-box, border-box;
+  background-clip: padding-box, border-box, border-box;
+  border: 22px solid transparent;
+  border-radius: 18px;
+  padding: 0.35rem 0.15rem 0.7rem;
+  box-shadow: 0 12px 28px rgba(190, 110, 130, 0.16);
 }
 
+[class*="st-key-linha_"],
+[class*="st-key-ficha_"],
 .st-key-cat_paes,
-.st-key-ficha_vulcao,
-.st-key-ficha_pudim {
-  background-color: #fff0f7;
-  background-image:
-    radial-gradient(circle at 8px 8px, #ff8fbf 2px, transparent 2.2px),
-    linear-gradient(45deg, #ffd6ea 25%, transparent 25%, transparent 75%, #ffd6ea 75%),
-    linear-gradient(45deg, #ffd6ea 25%, transparent 25%, transparent 75%, #ffd6ea 75%);
-  background-size: 32px 32px, 22px 22px, 22px 22px;
-  background-position: 0 0, 0 0, 11px 11px;
-  border-color: #ff8ab8;
-  box-shadow: 4px 4px 0 #ffd0ea;
-}
-
 .st-key-cat_acougue,
-.st-key-ficha_panqueca,
-.st-key-ficha_brigadeiro {
-  background-color: #fff1e4;
-  background-image:
-    radial-gradient(circle at 14px 12px, #ffb085 2.3px, transparent 2.5px),
-    linear-gradient(#ffe0c8 50%, #fff7ef 50%);
-  background-size: 28px 28px, 16px 16px;
-  border-color: #ffb085;
-  box-shadow: 4px 4px 0 #ffd7ba;
-}
-
 .st-key-cat_laticinios,
-.st-key-ficha_esfirras {
-  background-color: #fff8d4;
-  background-image:
-    radial-gradient(circle at 6px 18px, #f2c14e 2px, transparent 2.3px),
-    radial-gradient(circle at 20px 6px, #ffffff 2.4px, transparent 2.6px);
-  background-size: 26px 26px;
-  border-color: #e8c15a;
-  box-shadow: 4px 4px 0 #ffe38a;
-}
-
 .st-key-cat_hortifruti,
-.st-key-ficha_bandas {
-  background-color: #e9fff4;
-  background-image:
-    radial-gradient(circle at 10px 10px, #3cbf8f 2px, transparent 2.2px),
-    linear-gradient(45deg, #c8f6e2 25%, transparent 25%, transparent 75%, #c8f6e2 75%),
-    linear-gradient(45deg, #c8f6e2 25%, transparent 25%, transparent 75%, #c8f6e2 75%);
-  background-size: 30px 30px, 20px 20px, 20px 20px;
-  background-position: 0 0, 0 0, 10px 10px;
-  border-color: #7ddec0;
-  box-shadow: 4px 4px 0 #b8f3dc;
-}
-
-.st-key-cat_mercearia,
-.st-key-ficha_palha {
-  background-color: #f6ecff;
-  background-image:
-    radial-gradient(circle at 12px 12px, #c084fc 2.2px, transparent 2.4px),
-    linear-gradient(#edd9ff 50%, #fbf6ff 50%);
-  background-size: 28px 28px, 14px 14px;
-  border-color: #d7b4ff;
-  box-shadow: 4px 4px 0 #e4ccff;
+.st-key-cat_mercearia {
+  background-color: #fffefb;
+  background-image: none;
+  border: 1px solid #f0e2e6;
+  border-top: 4px solid #f3c2d0;
+  box-shadow: none;
 }
